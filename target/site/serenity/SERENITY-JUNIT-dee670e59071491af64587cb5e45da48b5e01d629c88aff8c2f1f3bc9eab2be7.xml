@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Trivago booking" skipped="0" tests="1" time="59.79" timestamp="2019-10-25 12:15:09"><testcase name="Successful search for a hotel reservation from the main trivago website"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.accenture.technoloshe.trivago.stepdefinitions.HotelReservationStepDefinitions.sheWillSeeTheCheapestBookingInformationOnTheScreen(HotelReservationStepDefinitions.java:49)&#13;
+✽.She will see the cheapest booking information on the screen(src/test/resources/features/hotel_reservation.feature:13)&#13;
+</system-err></testcase></testsuite>

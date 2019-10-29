@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5b3cc01583a2d4b748b0aea104497773c402660d1a9748bf294d5c72f724a26b.html">Trivago Booking</a></span>
+                > <span class="truncate-60"><a
+                    href="dee670e59071491af64587cb5e45da48b5e01d629c88aff8c2f1f3bc9eab2be7.html">Successful search for a hotel reservation from the main trivago website </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-10-2019 00:15</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Trivago Booking </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user<br />
+I want to use trivago page<br />
+to book a hotel
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Successful search for a hotel reservation from the main trivago website
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Null pointer exception</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.NullPointerException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.accenture.technoloshe.trivago.stepdefinitions.HotelReservationStepDefinitions.sheWillSeeTheCheapestBookingInformationOnTheScreen(HotelReservationStepDefinitions.java:49)<br />✽.She will see the cheapest booking information on the screen(src/test/resources/features/hotel_reservation.feature:13)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource1858301037979128216.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a580b6ebc54ec73e9172149c00a8e417957f39e497b177bf77aaeab7c977c7cc.png" title="Given that actor wants find lodging" width="1366"/>
+                <img src="62fe20f91ec84a4920d9c2910c73d2db5fb697f719316020ec1237edc2f836f4.png" title="leidy opens the browser on Trivago Main Page " width="1366"/>
+                <img src="787737cc5ff97ec35f37e52283eafc2a53134416bc127fe2a3193e25027e69bb.png" title="leidy opens the Trivago home" width="1366"/>
+                <img src="62fe20f91ec84a4920d9c2910c73d2db5fb697f719316020ec1237edc2f836f4.png" title="When she insert the data of the reservation
+| city | date arrived | date departure |
+| Medellin | 2019-10-27 | 2019-10-30 |" width="1366"/>
+                <img src="d5e2cce32870e95a0d7b75752879cf8f257765f28685280ddf0e23ad99b625e9.png" title="When she insert the data of the reservation
+| city | date arrived | date departure |
+| Medellin | 2019-10-27 | 2019-10-30 |" width="1366"/>
+                <img src="62fe20f91ec84a4920d9c2910c73d2db5fb697f719316020ec1237edc2f836f4.png" title="leidy clicks on ciudad" width="1366"/>
+                <img src="3e29a616a6df5cefd4decdc599fc234d43d1eb6bc793595feebe0b71daa6589d.png" title="leidy enters 'Medellin' into ciudad" width="1366"/>
+                <img src="d68ee5b6b0ccdb00831d42e99c6f7edf20401d61d568251069ab4e27c1fb1d91.png" title="leidy enters 'Medellin' into ciudad" width="1366"/>
+                <img src="d324bb045e10660cd099fc3cf3464c18879f3076bcbc0a4a7cab2dc0d0ecf36c.png" title="leidy clicks on seleccione la ciudad destino" width="1366"/>
+                <img src="da48344a00fb276e37c5569424f173cb1aa2462bb04ddd5912686caf377a07b5.png" title="leidy clicks on seleccione la ciudad destino" width="1366"/>
+                <img src="bf3aa462e6cb59cbb4877432c9e215eb9a3ce32232d3e3d98ffc1bac58d4912e.png" title="leidy clicks on mes" width="1366"/>
+                <img src="455b6e586978350a34a37bb8460acd2dd3b7a8b3f071af3d9112da0efb5b0201.png" title="leidy clicks on mes" width="1366"/>
+                <img src="455b6e586978350a34a37bb8460acd2dd3b7a8b3f071af3d9112da0efb5b0201.png" title="leidy clicks on Fecha de llegada" width="1366"/>
+                <img src="ea1ab9d3c9ba1b6cc599ce5357a7d0436601bc2a2d147cec27104b2c386d0148.png" title="leidy clicks on Fecha de llegada" width="1366"/>
+                <img src="ea1ab9d3c9ba1b6cc599ce5357a7d0436601bc2a2d147cec27104b2c386d0148.png" title="leidy clicks on Fecha de salida" width="1366"/>
+                <img src="021840e9bd68972db852ed1152e9a05235a84f1b469877e214c4fe78450d0042.png" title="leidy clicks on Fecha de salida" width="1366"/>
+                <img src="021840e9bd68972db852ed1152e9a05235a84f1b469877e214c4fe78450d0042.png" title="leidy clicks on buscar" width="1366"/>
+                <img src="305a70e2444702b8ccbf5b5f6265f2c2d8f1ca37ebd0f46769c5b62447d41056.png" title="leidy clicks on buscar" width="1366"/>
+                <img src="94465443bea8921e367fbc444e41507815771e78877dfd7edb30f954501b6859.png" title="leidy clicks on estrellas" width="1366"/>
+                <img src="ccda72ee8d6d2fe489ef8264042b369e97e3c477ae84e80d22c402bce857e1cd.png" title="leidy clicks on estrellas" width="1366"/>
+                <img src="1e7561b201f0c064b6aeb66bd00f16c188aedd6f1bf37f5ef90aaeb04155c6b9.png" title="leidy clicks on tipo de estrellas" width="1366"/>
+                <img src="5fb33c47777a7b10db760cd9adb69d51b3a307c90faf5f007c9c547433242c7f.png" title="leidy clicks on tipo de estrellas" width="1366"/>
+                <img src="9d3790d53cc73b396333ed5bec6e71bcd4bd0783767c23331953c30f668d79c4.png" title="leidy clicks on filtros" width="1366"/>
+                <img src="ec4b6dfc2a29a4b6c5d28560cc10289d8768638898c8d48aa9bdaca3108d53d0.png" title="leidy clicks on filtros" width="1366"/>
+                <img src="748e9695c8c1fbe1b8dc86ac5e425453ab2431b6bba72e44bd04bf45de4b8280.png" title="leidy clicks on Servicios de hotel" width="1366"/>
+                <img src="80eb819a5073fad76e7c894502e86cfc7936cd75f8005eb65b16aabc98adbcdd.png" title="leidy clicks on Servicios de hotel" width="1366"/>
+                <img src="80eb819a5073fad76e7c894502e86cfc7936cd75f8005eb65b16aabc98adbcdd.png" title="leidy clicks on bar" width="1366"/>
+                <img src="34128bdfdc584772695bf1f1dc2af1e53b10c5a5b13e139add76f6c880ab4cda.png" title="leidy clicks on bar" width="1366"/>
+                <img src="34128bdfdc584772695bf1f1dc2af1e53b10c5a5b13e139add76f6c880ab4cda.png" title="leidy clicks on No fumadores" width="1366"/>
+                <img src="e0ec05c670857433359de174b38b68bea59c96fd0c21b261bfe9ae57acb3a996.png" title="leidy clicks on No fumadores" width="1366"/>
+                <img src="a1453936a7e767649eb76c957ca5c9597283c6e2e5ed3b215b25a56acb295bb1.png" title="leidy clicks on Mascotas" width="1366"/>
+                <img src="25dffe885eb43f908b01f7272a91b2214cfcbd5932c8bd07c69b1fcd613f5679.png" title="leidy clicks on Mascotas" width="1366"/>
+                <img src="25dffe885eb43f908b01f7272a91b2214cfcbd5932c8bd07c69b1fcd613f5679.png" title="leidy clicks on Ok" width="1366"/>
+                <img src="5d4147386af9dac4697ab1cb600390f819f5473500b8bd630e5bc1c2c58448db.png" title="leidy clicks on Ok" width="1366"/>
+                <img src="4225b6f9da295f78e2c30acb35d4e6df96bcc4cee45f1ec9873c45f481fdcb6d.png" title="Then She will see the cheapest booking information on the screen" width="1366"/>
+                <img src="3cee874a26135e676afad4338c7a2ea6083ce6f9ff93704febd68eb909d73f63.png" title="leidy clicks on Recomendados" width="1366"/>
+                <img src="3cee874a26135e676afad4338c7a2ea6083ce6f9ff93704febd68eb909d73f63.png" title="leidy clicks on Precio" width="1366"/>
+                <img src="a43962b0e86965366124c09ed0f64602df6cda61be1f79a4ce3b0b61c0253878.png" title="leidy clicks on Precio: <span class='error-color'>ERROR</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>
